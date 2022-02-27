@@ -3,7 +3,7 @@ const progressBarCycling = document.getElementById("progress-done-cycling");
 const dataDoneCycling = document.getElementById("progress-done-cycling").textContent;
 const progressBarWeight = document.getElementById("progress-done-weight");
 const runningData = [2.67 , 3.17 , 3.05 , 3.27];
-const cyclingData = [11.57 , 12.98];
+const cyclingData = [11.57 , 12.98 , 11.53 , 16.39];
 const reducer = (accumulator, curr) => accumulator + curr;
 const currentWeight = 85.4;
 const beginningWeight = 87; // target weight = 75 so 12kg to lose.
